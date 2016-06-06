@@ -1,0 +1,248 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: brown;
+    background-color: white;
+    margin: 6mm;
+}
+/* Alerts from bootstrap */
+.alert{padding:8px 35px 8px 14px;margin-bottom:20px;text-shadow:0 1px 0 rgba(255,255,255,.5);background-color:#fcf8e3;border:1px solid #fbeed5;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;position:relative;left:50px;top:40px}.alert,.alert h4{color:#c09853}.alert h4{margin:0}.alert .close{position:relative;top:-2px;right:-21px;line-height:20px}.alert-success{color:#468847;background-color:#dff0d8;border-color:#d6e9c6}.alert-success h4{color:#468847}.alert-error,.alert-error h4{color:#b94a48}.alert-error{background-color:#f2dede;border-color:#eed3d7}.alert-info,.alert-info h4{color:#3a87ad}.alert-info{background-color:#d9edf7;border-color:#bce8f1}.close{float:right;font-size:20px;font-weight:700;line-height:20px;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:focus,.close:hover{color:#000;text-decoration:none;cursor:pointer;opacity:.4;filter:alpha(opacity=40)}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}
+
+
+#teren {
+    width: 100%;
+}
+
+#container {
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoimg {
+    float: left;
+    height: 80px;
+    background-image: url('grafika/ccc.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    min-height: 60px;
+    background-color: black;
+    width: 1160px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#but1 {
+    float: left;
+    background-color: lightgreen;
+    text-align: center;
+    width: 200px;
+    padding: 10px
+
+}
+
+#but2 {
+    float: left;
+    background-color: lightgrey;
+    text-align: center;
+    width: 200px;
+    padding: 10px
+}
+
+#but3 {
+    float: left;
+    background-color: lightgreen;
+    text-align: center;
+    width: 200px;
+    padding: 10px
+}
+
+#but4 {
+    float: left;
+    background-color: lightgrey;
+    text-align: center;
+    width: 200px;
+    padding: 10px
+}
+
+#but5 {
+    float: left;
+    background-color: lightgreen;
+    text-align: center;
+    width: 200px;
+    padding: 10px
+}
+
+#but6 {
+    float: left;
+    background-color: lightgrey;
+    text-align: center;
+    width: 200px;
+    padding: 10px
+}
+
+#opisowo {
+    clear: both;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+#srodek {
+
+    float: left;
+    padding: 20px;
+    width: 1280px;
+    min-height: 500px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#srodek2 {
+ 
+    float: left;
+    padding: 20px;
+    width: 1200px;
+    min-height: 500px;
+    background-color: lightblue;
+    text-align: center;
+}
+#srodek3 {
+    float: left;
+   padding: 20px;
+    width: 1200px;
+    min-height: 500px;
+    background-color: lightblue;
+    text-align: left;
+    position: relative;
+    left: -20px;
+    margin-bottom: 60px;
+
+
+}
+
+#footer {
+clear: both;
+    width: 1300px;
+background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    text-align: left;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.btn {
+    background: #FF0033;
+    display: inline-block;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    line-height: 2.5em;
+    padding: 0 3em;
+    text-decoration: none;
+}
+
+
+.pull-left {
+    float: left;
+    width: 344px;
+text-align: center;
+}
+
+
+.pull-right {
+    float: right;
+    width: 700px;
+}
+
+.calculator ul {
+    list-style-type: none
+}
+
+.calculator fieldset {
+    border-color: grey;
+}
+
+.calculator legend {
+    font-size: 10px;
+    text-align: center;
+    padding: 0.2% 0.4%;
+    width: 20%;
+    margin: 0 24.6%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.operations dt{
+    position: relative;
+    margin: 10px 0 10px 0;
+}
+
+.calculator li {
+    display: block;
+}
+
+.calculator input[type=submit] {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.informacja {
+    width: 80%;
+    position: relative;
+    left: 100px;
+    margin-bottom: 60px;
+}
+
+.informacja1 {
+    width: 50%;
+    position: relative;
+    left: 100px;
+    margin-bottom: 60px;
+}
+
+.silnia {
+    position: relative;
+    left: 200px;
+text-align: left;
+}
+
+.silnia fieldset{
+    border: none
+}
+
+.silnia ul {
+    list-style-type: none;
+}
+
+.silnia input[type=text] {
+    position: relative;
+    left: -50px;
+}
+
+.silnia input[type=submit] {
+    position: relative;
+    left: -10px;
+    top: 20px;
+}
